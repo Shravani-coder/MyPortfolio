@@ -80,7 +80,7 @@ const Hero = () => {
                 <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
               </button>
               <a
-                href="public/assets/shravani_resume.pdf"
+                href="assets/shravani_resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-3 border-2 border-blue-600 text-blue-600 rounded-lg font-medium hover:bg-blue-50 transition-all duration-300 flex items-center gap-2 hover:-translate-y-0.5"

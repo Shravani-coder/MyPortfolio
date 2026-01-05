@@ -17,13 +17,14 @@ const Contact = () => {
 
     setIsSubmitting(true);
 
-    try {
+     try {
       await emailjs.sendForm(
-        'service_hhc3lfb',
-        'template_5a8az8b',
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         formRef.current,
-        'TeHtAi2rwZNUKf1SN'
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       );
+
 
       setShowSuccess(true);
       formRef.current.reset();
