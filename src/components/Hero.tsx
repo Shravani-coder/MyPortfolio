@@ -67,8 +67,13 @@ const Hero = () => {
             </h3>
 
             <p className="text-lg text-gray-700 mb-8 leading-relaxed max-w-xl mx-auto md:mx-0">
-              Passionate about building impactful products using modern web technologies (React, Node.js) and integrating intelligent AI solutions. Always learning, always creating.
-            </p>
+  Software Developer with industry experience as an <span className="font-medium text-gray-900">SDE Intern at Flipkart</span>. 
+  A <span className="font-medium text-gray-900">Desis Ascend Educare Program mentee</span>, 
+  <span className="font-medium text-gray-900">Flipkart Runway Winner</span>, and 
+  <span className="font-medium text-gray-900"> Semi-Finalist at Tata Women of Mettle</span>. 
+  Passionate about building scalable web applications using React & Node.js and exploring AI-driven solutions.
+</p>
+
 
             {/* Buttons */}
             <div className="flex flex-wrap gap-4 justify-center md:justify-start mb-8">
